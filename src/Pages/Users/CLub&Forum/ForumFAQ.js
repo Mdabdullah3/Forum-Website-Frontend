@@ -17,7 +17,7 @@ const ForumFAQ = ({ serviceId }) => {
 
   useEffect(() => {
     const email = serviceId?.email;
-    const url = `https://uiu-club-forums.onrender.com/myfaq?email=${email}`;
+    const url = `https://forum-server-zoem.onrender.com/myfaq?email=${email}`;
     fetch(url, {
       method: "GET",
     })

@@ -16,7 +16,7 @@ const ActivityPost = () => {
       student: data.student,
       date: data.date,
     };
-    fetch(`https://uiu-club-forums.onrender.com/activites`, {
+    fetch(`https://forum-server-zoem.onrender.com/activites`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

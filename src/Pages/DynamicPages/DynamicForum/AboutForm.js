@@ -29,7 +29,7 @@ const AboutForm = () => {
             abDescr: data.shortDesp,
           };
           fetch(
-            `https://uiu-club-forums.onrender.com/user/service/${user?.email}`,
+            `https://forum-server-zoem.onrender.com/user/service/${user?.email}`,
             {
               method: "PUT",
               headers: {

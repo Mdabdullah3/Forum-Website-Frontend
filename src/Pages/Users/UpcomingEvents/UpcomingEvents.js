@@ -13,7 +13,7 @@ import { useQuery } from "react-query";
 import Loading from "../../Shared/Loading/Loading";
 import { Link } from "react-router-dom";
 const UpcomingEvents = () => {
-  const url = `https://uiu-club-forums.onrender.com/upcomingEvents`;
+  const url = `https://forum-server-zoem.onrender.com/upcomingEvents`;
   const {
     data: upcomingEvents,
     isLoading,

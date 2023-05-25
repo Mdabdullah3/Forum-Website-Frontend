@@ -5,7 +5,7 @@ const RequestListClubForum = () => {
   const [request, setRequest] = useState([]);
 
   useEffect(() => {
-    const url = `https://uiu-club-forums.onrender.com/allrequest`;
+    const url = `https://forum-server-zoem.onrender.com/allrequest`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setRequest(data));
@@ -19,7 +19,7 @@ const RequestListClubForum = () => {
       serviceName: serviceName,
       bio: bio,
     };
-    fetch(`https://uiu-club-forums.onrender.com/service`, {
+    fetch(`https://forum-server-zoem.onrender.com/service`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -28,7 +28,7 @@ const RequestListClubForum = () => {
     }).then((res) => res.json());
     toast("Successful ! Request Approve");
 
-    const url = `https://uiu-club-forums.onrender.com/allrequest/${id}`;
+    const url = `https://forum-server-zoem.onrender.com/allrequest/${id}`;
     fetch(url, {
       method: "DELETE",
     })
@@ -40,7 +40,7 @@ const RequestListClubForum = () => {
   };
 
   const handleDelete = (id) => {
-    const url = `https://uiu-club-forums.onrender.com/allrequest/${id}`;
+    const url = `https://forum-server-zoem.onrender.com/allrequest/${id}`;
     fetch(url, {
       method: "DELETE",
     })

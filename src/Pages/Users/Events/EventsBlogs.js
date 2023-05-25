@@ -13,7 +13,7 @@ const EventsBlogs = () => {
   const userEamil = user?.email;
   const [like, setLike] = useState(0);
   const [isLike, setIsLike] = useState();
-  const url = `https://uiu-club-forums.onrender.com/eventblogs`;
+  const url = `https://forum-server-zoem.onrender.com/eventblogs`;
   const {
     data: eventBlogs,
     isLoading,

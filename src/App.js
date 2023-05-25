@@ -41,7 +41,7 @@ import AddNewEvent from "./Pages/Admin/Login/Dashboard/AddNewEvent";
 import NotFound from "./Pages/Shared/NotFound/NotFound";
 
 function App() {
-  const url = `https://uiu-club-forums.onrender.com/eventRegistration`;
+  const url = `https://forum-server-zoem.onrender.com/eventRegistration`;
   const {
     data: datas,
     isLoading,

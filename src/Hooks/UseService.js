@@ -5,7 +5,7 @@ const UseService = () => {
   const [service, setService] = useState([]);
 
   useEffect(() => {
-    fetch("https://uiu-club-forums.onrender.com/service")
+    fetch("https://forum-server-zoem.onrender.com/service")
       .then((res) => res.json())
       .then((data) => setService(data));
   }, [service]);

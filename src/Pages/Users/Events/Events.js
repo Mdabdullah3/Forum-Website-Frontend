@@ -11,7 +11,7 @@ import "swiper/css";
 import { Autoplay, Pagination } from "swiper";
 import Loading from "../../Shared/Loading/Loading";
 const Events = () => {
-  const url = `https://uiu-club-forums.onrender.com/upcomingEvents`;
+  const url = `https://forum-server-zoem.onrender.com/upcomingEvents`;
   const {
     data: upcomingEvents,
     isLoading,

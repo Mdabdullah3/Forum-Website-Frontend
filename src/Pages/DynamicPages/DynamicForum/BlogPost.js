@@ -30,7 +30,7 @@ const BlogPost = () => {
             date: data.date,
             text: data.text,
           };
-          fetch(`https://uiu-club-forums.onrender.com/blog`, {
+          fetch(`https://forum-server-zoem.onrender.com/blog`, {
             method: "POST",
             headers: {
               "content-type": "application/json",

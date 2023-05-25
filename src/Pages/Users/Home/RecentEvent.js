@@ -8,7 +8,7 @@ import Loading from "../../Shared/Loading/Loading";
 const RecentEvent = () => {
   const [items, setItems] = useState();
 
-  const url = `https://uiu-club-forums.onrender.com/recentEvents`;
+  const url = `https://forum-server-zoem.onrender.com/recentEvents`;
   const {
     data: recentEvents,
     isLoading,

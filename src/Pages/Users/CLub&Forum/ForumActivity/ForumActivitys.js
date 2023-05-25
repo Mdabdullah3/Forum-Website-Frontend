@@ -16,7 +16,7 @@ const ForumActivitys = ({ serviceId }) => {
   const [activies, setActivies] = useState([]);
   useEffect(() => {
     const email = serviceId?.email;
-    const url = `https://uiu-club-forums.onrender.com/myActivites?email=${email}`;
+    const url = `https://forum-server-zoem.onrender.com/myActivites?email=${email}`;
     fetch(url, {
       method: "GET",
     })

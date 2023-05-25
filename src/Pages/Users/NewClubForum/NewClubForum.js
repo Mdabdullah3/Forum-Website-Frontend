@@ -19,7 +19,7 @@ const NewClubForum = () => {
       bio: data.describe,
       phone: data.phone,
     };
-    fetch(`https://uiu-club-forums.onrender.com/allrequest`, {
+    fetch(`https://forum-server-zoem.onrender.com/allrequest`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

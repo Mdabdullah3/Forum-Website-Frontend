@@ -15,7 +15,7 @@ const CheckoutForm = ({ custom, serviceId }) => {
 
   useEffect(() => {
     if (amount) {
-      fetch("https://uiu-club-forums.onrender.com/create-payment-intent", {
+      fetch("https://forum-server-zoem.onrender.com/create-payment-intent", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -81,7 +81,7 @@ const CheckoutForm = ({ custom, serviceId }) => {
         phone: custom.phone,
         payment: paymentIntent.id,
       };
-      fetch(`https://uiu-club-forums.onrender.com/custom`, {
+      fetch(`https://forum-server-zoem.onrender.com/custom`, {
         method: "POST",
         headers: {
           "content-type": "application/json",

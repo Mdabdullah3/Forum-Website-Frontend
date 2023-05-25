@@ -15,7 +15,7 @@ const PostFaq = () => {
       ques: data.ques,
       ans: data.ans,
     };
-    fetch(`https://uiu-club-forums.onrender.com/faq`, {
+    fetch(`https://forum-server-zoem.onrender.com/faq`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

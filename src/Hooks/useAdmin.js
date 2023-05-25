@@ -8,7 +8,7 @@ const useAdmin = (user) => {
     const email = user?.email;
 
     if (email) {
-      fetch(`https://uiu-club-forums.onrender.com/admin/${email}`, {
+      fetch(`https://forum-server-zoem.onrender.com/admin/${email}`, {
         method: "GET",
         headers: {
           "content-type": "application/json",
