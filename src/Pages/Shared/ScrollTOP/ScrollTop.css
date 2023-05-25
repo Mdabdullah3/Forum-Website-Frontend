@@ -1,0 +1,13 @@
+.buttons{
+    position: fixed;
+    width: 100%;
+    margin-left: 0%;
+    bottom: 10px;
+    height: 20px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    z-index: 1;
+    right: 0;
+    cursor: pointer;
+    color: rgb(246, 51, 51);
+    }

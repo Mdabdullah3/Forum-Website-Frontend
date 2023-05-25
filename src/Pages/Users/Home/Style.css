@@ -1,0 +1,9 @@
+.borders {
+    width: 150px;
+    border: 3px double #64CEE6;
+    position: relative;
+    display: inline-block;
+    border-color: #64CEE6;
+    z-index: -1;
+    border-radius: 10px;
+  }
