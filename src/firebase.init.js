@@ -1,14 +1,17 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+// Import the functions you need from the SDKs you need
+import { initializeApp, getAuth } from "firebase/app";
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAeP_6CfsZ5NsIn-ZH73mArDMGOfLoBW7g",
-  authDomain: "uiu-club-forum.firebaseapp.com",
-  projectId: "uiu-club-forum",
-  storageBucket: "uiu-club-forum.appspot.com",
-  messagingSenderId: "626674382976",
-  appId: "1:626674382976:web:005ed9eb3d3ac9dd00ce65",
-  measurementId: "G-M4R9Z4NZ2V",
+  apiKey: "AIzaSyAWRRq3UaFO4QQZpoPGETKN_v5nEXw6zFQ",
+  authDomain: "uiuclubforum.firebaseapp.com",
+  projectId: "uiuclubforum",
+  storageBucket: "uiuclubforum.appspot.com",
+  messagingSenderId: "396032646645",
+  appId: "1:396032646645:web:2c58717f2f9b5e1320d4bc",
+  measurementId: "G-F95NL76RNE"
 };
+
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
