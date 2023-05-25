@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "uiu-club-forum"
-  }
+    "default": "uiuclubforum",
+    " ": "uiuclubforum"
+  },
+  "targets": {},
+  "etags": {}
 }

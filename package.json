@@ -14,7 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^3.0.0-beta.6",
     "daisyui": "^2.50.1",
-    "firebase": "^9.17.2",
+    "firebase": "^9.22.0",
     "framer-motion": "^10.6.1",
     "react": "^18.2.0",
     "react-countdown": "^2.3.5",
